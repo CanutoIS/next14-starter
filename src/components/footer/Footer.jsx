@@ -3,8 +3,8 @@ import styles from "./footer.module.css"
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.logo}>lamadev</div>
-      <div className={styles.text}></div>
+      <p className={styles.logo}>lamadev</p>
+      <p className={styles.text}>Lama creative thoughts agency © All rights reserved.</p>
     </div>
   )
 }
