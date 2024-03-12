@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import styles from './contact.module.css'
 
@@ -5,7 +7,7 @@ const ContactPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="/contact.png" className={styles.img} fill/>
+        <Image src="/contact.png" alt='' className={styles.img} fill/>
       </div>
       <div className={styles.formContainer}>
         <form className={styles.form}>

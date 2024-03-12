@@ -54,6 +54,7 @@ const Links = () => {
             </div>
             <Image
                 className={styles.menuButton}
+                alt=""
                 src="/menu.png"
                 width={30}
                 height={30}
